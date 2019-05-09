@@ -1,0 +1,6 @@
+project(example_exe)
+include_directories(BEFORE ${CMAKE_SOURCE_DIR}/example_lib/include)
+add_executable(example_exe main.cpp)
+target_link_libraries(example_exe example_lib)
+add_dependencies(example_exe example_lib)
+add_clang_format(example_exe)
