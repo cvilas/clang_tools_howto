@@ -1,6 +1,5 @@
-# note: cmake version 3.6 or above is required for clang-tidy support. However, to support
-# Ubuntu 16.04 on embedded targets, we set the requirement to 3.5.
-cmake_minimum_required(VERSION 3.5)
+# note: cmake version 3.6 or above is required for clang-tidy support.
+cmake_minimum_required(VERSION 3.6)
 project(clang_tools_example CXX)
 
 #----------------------------------------------------------------------------------------------------------------------
